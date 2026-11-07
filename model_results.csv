@@ -1,0 +1,7 @@
+,MAE,RMSE,R2,Bias (pred - actual),Band accuracy %
+Baseline: overall mean,34.084,39.926,-0.12,-13.089,26.438
+Baseline: mean by month,22.08,27.8,0.457,-13.11,56.427
+Baseline: mean by month+hour,21.635,27.445,0.471,-13.11,55.902
+Linear regression,22.754,28.181,0.442,-12.983,53.881
+Random forest (tuned),20.123,25.295,0.55,-10.775,57.66
+Gradient boosting (tuned),19.87,25.001,0.561,-10.681,57.511

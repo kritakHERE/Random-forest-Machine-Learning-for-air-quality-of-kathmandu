@@ -1,0 +1,6 @@
+group,hours,actual mean,predicted mean,MAE,RMSE,Bias
+Good,20,48.1,64.6,16.5,17.3,16.5
+Moderate,3912,79.0,82.8,13.0,16.9,3.8
+Sensitive,2316,125.7,115.2,16.7,21.5,-10.6
+Unhealthy,2477,162.1,129.1,33.0,35.3,-33.0
+Very unhealthy,35,208.7,134.3,74.3,74.8,-74.3

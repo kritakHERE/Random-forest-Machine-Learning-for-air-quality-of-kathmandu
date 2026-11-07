@@ -1,0 +1,5 @@
+,Default,Default,Default,Default,Default,Tuned,Tuned,Tuned,Tuned,Tuned
+,Accuracy,Precision,Recall,F1,ROC-AUC,Accuracy,Precision,Recall,F1,ROC-AUC
+Logistic Regression (baseline),0.688,0.681,0.873,0.765,0.775,0.676,0.67,0.876,0.759,0.774
+Random Forest,0.706,0.736,0.772,0.754,0.766,0.723,0.751,0.785,0.768,0.797
+XGBoost,0.68,0.722,0.733,0.727,0.744,0.724,0.747,0.796,0.77,0.793

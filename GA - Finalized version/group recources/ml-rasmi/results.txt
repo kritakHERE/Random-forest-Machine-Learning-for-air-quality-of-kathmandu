@@ -1,0 +1,33 @@
+Train rows: 26304 | Test rows: 8760
+
+Train class counts:
+ label
+Good/Moderate                        14837
+Unhealthy for Sensitive (101-150)     7550
+Unhealthy (151+)                      3917
+Name: count, dtype: int64
+
+Test class counts:
+ label
+Good/Moderate                        3932
+Unhealthy (151+)                     2512
+Unhealthy for Sensitive (101-150)    2316
+Name: count, dtype: int64
+
+Accuracy: 0.5574
+Macro F1: 0.5011
+
+                                    precision    recall  f1-score   support
+
+                    Good/Moderate       0.79      0.57      0.66      3932
+                 Unhealthy (151+)       0.45      0.89      0.60      2512
+Unhealthy for Sensitive (101-150)       0.43      0.17      0.24      2316
+
+                         accuracy                           0.56      8760
+                        macro avg       0.55      0.54      0.50      8760
+                     weighted avg       0.60      0.56      0.53      8760
+
+Labels: ['Good/Moderate', 'Unhealthy (151+)', 'Unhealthy for Sensitive (101-150)']
+[[2243 1322  367]
+ [ 105 2247  160]
+ [ 503 1420  393]]

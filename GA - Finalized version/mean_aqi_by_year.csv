@@ -1,0 +1,5 @@
+Period,Role,Mean AQI,Hours
+Oct 2022 to Sep 2023,Train,100.2,8760
+Oct 2023 to Sep 2024,Train,88.2,8784
+Oct 2024 to Sep 2025,Train,118.3,8760
+Oct 2025 to Sep 2026,Test,115.3,8760
